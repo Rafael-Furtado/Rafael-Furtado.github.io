@@ -26,6 +26,12 @@ main{
     margin: 20px;
 }
 
+@media(max-width: 880px){
+    main{
+        grid-template-columns: 1fr;
+    }
+}
+
 .left, .experience, .graduation{
     background-color: var(--background-section);
     border-radius: 10px;
